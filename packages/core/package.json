@@ -1,6 +1,6 @@
 {
   "name": "m4k",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Media toolkit for node, bun, and deno",
   "keywords": [
     "audio",
@@ -38,9 +38,9 @@
   "devDependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "tasque": "^0.1.2",
-    "typescript": "^6.0.2"
+    "typescript": "^7.0.2"
   },
   "peerDependencies": {
-    "sharp": "^0.34.5"
+    "sharp": "^0.35.3"
   }
 }
