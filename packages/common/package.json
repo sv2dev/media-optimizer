@@ -1,6 +1,6 @@
 {
   "name": "@m4k/common",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Common types and utilities for m4k",
   "license": "MIT",
   "author": "sv2dev",
@@ -24,6 +24,6 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^6.0.2"
+    "typescript": "^7.0.2"
   }
 }
