@@ -1,6 +1,6 @@
 {
   "name": "@m4k/typebox",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -18,7 +18,7 @@
     "@sinclair/typebox": "^0.34.33"
   },
   "devDependencies": {
-    "@types/bun": "^1.3.12",
+    "@types/bun": "^1.3.14",
     "typescript": "^6.0.2"
   },
   "repository": {

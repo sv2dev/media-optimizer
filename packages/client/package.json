@@ -1,6 +1,6 @@
 {
   "name": "@m4k/client",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Client for m4k server",
   "keywords": [
     "audio",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@m4k/server": "workspace:^",
-    "@types/bun": "^1.3.12",
+    "@types/bun": "^1.3.14",
     "typescript": "^6.0.2"
   }
 }
