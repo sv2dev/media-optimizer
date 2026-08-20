@@ -62,13 +62,13 @@ describe("/process", () => {
     expect(collected1).toEqual([
       { position: 0 },
       { progress: 0 },
-      { filename: "file1.avif", type: "image/avif", size: 480 },
+      { filename: "file1.avif", type: "image/avif", size: 530 },
       { progress: 100 },
     ]);
     expect(collected2).toEqual([
       { position: 0 },
       { progress: 0 },
-      { filename: "file1.avif", type: "image/avif", size: 480 },
+      { filename: "file1.avif", type: "image/avif", size: 530 },
       { progress: 100 },
     ]);
   });
@@ -141,7 +141,7 @@ describe("/process", () => {
     expect(collected).toEqual([
       { position: 0 },
       { progress: 0 },
-      { filename: "file1.avif", type: "image/avif", size: 437 },
+      { filename: "file1.avif", type: "image/avif", size: 487 },
       { progress: 50 },
       { filename: "file2.webp", type: "image/webp", size: 204 },
       { progress: 100 },

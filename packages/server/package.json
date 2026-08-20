@@ -35,12 +35,12 @@
   "dependencies": {
     "@m4k/common": "workspace:^",
     "@m4k/typebox": "workspace:^",
-    "@sv2dev/multipart-stream": "^0.2.0",
+    "@sv2dev/multipart-stream": "^0.2.3",
     "m4k": "workspace:^"
   },
   "devDependencies": {
     "@sinclair/typebox": "^0.34.52",
-    "@types/bun": "^1.3.14",
+    "bun-types": "^1.4.0",
     "typescript": "^7.0.2"
   }
 }
