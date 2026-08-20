@@ -22,4 +22,5 @@ COPY --from=mwader/static-ffmpeg:9.0 /ffmpeg /usr/local/bin/
 COPY --from=build /app/packages/server/dist/server/app.js /app/app.js
 COPY --from=install /app/node_modules/ /app/node_modules/
 EXPOSE 3000
+USER bun
 CMD ["bun", "app.js"]

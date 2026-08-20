@@ -11,3 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated `@sinclair/typebox` to `0.34.52`.
 - Updated Bun tooling and TypeScript dependencies.
+- Updated `@sv2dev/multipart-stream` to `0.2.3`.
