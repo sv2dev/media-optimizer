@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "types": ["bun-types"],
     "outDir": "lib",
     "rootDir": "src",
     "composite": true
